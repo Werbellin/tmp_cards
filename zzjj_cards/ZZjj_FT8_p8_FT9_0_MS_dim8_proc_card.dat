@@ -1,0 +1,11 @@
+set group_subprocesses Auto
+set ignore_six_quark_processes False
+set loop_optimized_output True
+set complex_mass_scheme False
+#import model SM_LT012_UFO
+import model SM_LT8_LT9_UFO 
+define p = g u c d s b u~ c~ d~ s~ b~
+define j = p
+
+generate    p p > z z j j QED=5 QCD=0 NP=1
+output ZZjj_FT8_p8_FT9_0_MS_dim8 -nojpg 

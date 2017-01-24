@@ -1,0 +1,13 @@
+change rwgt_dir rwgt
+launch
+set FT8 16.0e-12
+launch
+set FT8 4.0e-12
+launch
+set FT8 0.0
+launch
+set FT9 16.0e-12
+launch
+set FT9 8.0e-12
+launch
+set FT9 4.0e-12
